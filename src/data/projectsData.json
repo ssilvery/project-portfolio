@@ -25,7 +25,7 @@
     "title": "용산구청(반응형)",
     "tech": ["HTML", "CSS", "JS", "Photoshop", "Bootstrap"],
     "contribution": "100",
-    "siteUrl": "/projects/item03/index.html"
+    "siteUrl": "./projects/item03/index.html"
   },
   {
     "id": 5, 
