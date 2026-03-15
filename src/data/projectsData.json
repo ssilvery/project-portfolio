@@ -4,7 +4,7 @@
     "title": "정철어학원 Jr(WEB)",
     "tech": ["HTML", "CSS", "JS", "PhotoShop"],
     "contribution": "100",
-    "siteUrl": "/projects/item02/layout.html"
+    "siteUrl": "./projects/item02/layout.html"
   },
   {
     "id": 2, 
