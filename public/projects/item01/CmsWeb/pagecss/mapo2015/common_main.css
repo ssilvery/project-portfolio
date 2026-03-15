@@ -1,0 +1,225 @@
+@charset "utf-8";
+html, body, div, dl, dt, dd, ul, ol, li, p, h1, h2 ,h3, h4, h5, h6{margin:0px; padding:0px;font-family:"Nanum Gothic","나눔고딕","ng","맑은 고딕","malgun gothic","AppleGothic","dotum"; font-size:13px; list-style:none; color:#333;}
+a{text-decoration:none;color:#323232;}
+img{border:0;vertical-align:middle;}
+select{border:1px solid #d6d6d6;vertical-align:middle;font-family:"Nanum Gothic";}
+input{font-family:"Nanum Gothic";vertical-align:middle;border:1px solid #d6d6d6;}
+textarea{font-family:"Nanum Gothic";vertical-align:middle;}
+.clear{clear:both;height:0;}
+table caption{height:0px;width:0;overflow:hidden;font-size:0;}
+.mar_tp5{margin-top:5px;}
+.mar_tp10{margin-top:10px;}
+.mar_tp15{margin-top:15px;}
+.mar_tp30{margin-top:30px;}
+.mar_tb1{margin:1px 0;}
+.mar_lf{margin-left:40px;}
+
+.skipNav{position:relative;width:100%;z-index:99999;}
+.skipNav a{position:absolute;left:0;top:-1000px;display:block;width:100%;padding:10px 0; font-style:normal; font-variant:normal;text-align:center;font-family:"Nanum Gothic";font-size:14px; font-weight: 600;color:#ffffff;background:#000000;}
+.skipNav a:active,
+.skipNav a:focus{top:0;text-decoration:none;color:#ffffff;}
+
+#wrap{}
+#header_top{height:27px;background-color:#f9f9f9;border-bottom:1px solid #dddddd;}
+.header_top_div{margin:0 auto;width:1169px;}
+.header_top_div > ul{float:right;}
+.header_top_div > ul > li{float:left;}
+.header_top_div > ul > li > a{display:block;padding:0 14px;height:27px;line-height:27px;border-right:1px solid #dddddd;}
+.header_top_div > ul > li > a.frist{border-left:1px solid #dddddd;}
+.header_top_div > ul > li > a.frist > img{margin-top:6px;}
+.header_top_div > ul > li > a:hover{background-color:#ffffff;border-bottom:1px solid #fdfdfd;}
+.header_top_div > ul > li > a.on{background-color:#ffffff;border-bottom:1px solid #fdfdfd;}
+#header_mid{margin:0 auto;width:1169px;padding:21px 0 25px 0;}
+.logo{float:left;}
+.search_welcome{float:right; padding-top:10px;}
+.search_welcome > span{margin-left:39px;}
+.search_welcome label{display:inline-block;border:2px solid #533f85;padding:3px 5px;}
+.search_welcome label > input{border:0;height:20px;width:280px;margin-right:10px;}
+.search_welcome > span > strong{margin-right:5px;color:#503c83;}
+#header_btm{background-color:#f9f9f9;border-top:1px solid #dddddd;border-bottom:1px solid #dddddd;}
+.menu{margin:0 auto;width:1169px;border-left:1px solid #dddddd;border-right:1px solid #dddddd;position:relative;z-index:200;}
+.menu_daph1 > li{float:left;}
+.menu_daph1 > li > a{display:block;width:194px;border-right:1px solid #dddddd;text-align:center;font-size:16px;font-weight: 600;height:50px;line-height:48px;}
+.menu_daph1 > li > a.last{width:194px;border-right:0;background:url(../../../CmsWeb/resource/image/mapo/mapo2015/main/menu_last_bg.gif) repeat-x left top;color:#ffffff;}
+#main_banner_bg{background-color:#cccccc;}
+#main_banner{margin:0 auto;width:1169px;background-color:#ffffff;}
+.main_banner_lf{float:left;border-right:1px solid #dddddd;}
+.main_banner_ct{float:left; position:relative;}
+.mbr_po{position:absolute;bottom: 0; left:-1px;}
+.mbr_po > a{float: left; width: 195px; padding:10px 0; background: #5b5375; text-align: center;}
+.mbr_po > a:last-child{background: #6ab1b8}
+.mbr_po > a > p {margin-top: 15px; font-size: 13px; color: #fff;}
+.main_banner_rt{float: left; position: relative; width: 192px; padding-top: 15px; text-align: center;}
+.main_banner_rt > a{float: left; width: 96px; margin-bottom: 15px}
+.main_banner_rt > a > p{margin-top: 15px; color: #333;}
+#bannerzoon_bor{border-bottom:1px solid #dddddd;border-top:1px solid #dddddd;background-color:#ffffff;}
+.bannerzoon{border:2px solid #169b98;width:1165px;margin:0 auto; margin-top: -1px; margin-bottom: -1px}
+.bannerArea {position:relative; height:100px; width:100%; margin:0 auto;}
+.bannerArea:after {content:""; display:block; clear:both;}
+.bannerArea ul.controlArea {overflow:hidden;position:absolute;top:10px; right:10px;z-index:50;}
+.bannerArea ul.controlArea li { float:left;}
+.bannerArea ul.controlArea li.controlPrev {width:17px;}
+.bannerArea ul.controlArea li.controlNext {width:16px;}
+.bannerArea ul.controlArea li a {display:block;height:16px;}
+.bannerArea ul.banner {overflow:hidden;}
+.bannerArea ul.banner li {float:left; width:116.9px; text-align: center;height:100%;}
+.bannerArea ul.banner li > a{display:block;width:100%;height:100%;}
+.bannerArea ul.banner li.last {margin-right:0;}
+.bannerArea .outerWrap {border-left:1px solid #e0e0e0;position:relative; overflow:hidden; width:100%;}
+.bannerArea .outerWrap ul.banner { position:relative; width:40000em;}
+.bannerArea .outerWrap ul.banner a{display:block;width:100%;vertical-align:middle;height:100px;border-right:1px solid #dddddd;position:relative;text-align:center;vertical-align:bottom;}
+.bannerArea .outerWrap ul.banner a > img{max-width:100%;max-height:65px;margin-top:15px;}
+#contents{margin:0 auto;width:1169px;}
+
+/* 공지사항 ~ 주민참여*/
+.contents_about{border-bottom:1px solid #dddddd;border-left:1px solid #dddddd;}
+.contents_about > div{float:left;height:270px;border-right:1px solid #dddddd;}
+.contents_lf{width:350px;position:relative;}
+.contents_lf > ul > li{float:left;}
+.contents_lf > ul > li > a{display:block;padding:10px 0;letter-spacing:-1px;width:70px;font-size:14px;font-weight: 600;text-align:center;background:url(/CmsWeb/resource/image/mapo/mapo2015/main/eazy_icon_20.gif) no-repeat right center;color:#555555;}
+.contents_lf > ul > li > a:hover{color:#323232;font-size:16px;}
+.eazy_po{position:absolute;right:12px;top:18px;}
+.eazy_po2{position:absolute;right:3px;top:-42px;}
+.disnone{display:none;}
+.contents_mid{width:350px;position:relative;}
+.contents_mid > ul > li{float:left;}
+.contents_mid > ul > li > a{display:block;padding:10px 0;letter-spacing:-1px;width:70px;font-size:14px;font-weight: 600;text-align:center;background:url(/CmsWeb/resource/image/mapo/mapo2015/main/eazy_icon_20.gif) no-repeat right center;color:#555555;}
+.contents_mid > ul > li > a:hover{color:#323232;font-size:16px;}
+.eazy_photo > div{border-bottom:1px dotted #dddddd;}
+.eazy_photo > p{position: relative; border-bottom:1px dotted #dddddd;}
+.eazy_photo > p::before{content: ""; width: 3px; height: 3px; background: #a6a6a6; display: inline-block; position: absolute; top: 15px;}
+.eazy_photo > div.eazy_photo_one{padding-bottom:10px;}
+.eazy_photo > p > a{line-height:31px;background: url(/CmsWeb/resource/image/mapo/mapo2015/main/eb_icon.gif) no-repeat left center;padding-left:8px;}
+.eazy_photo_img{float:left;}
+.eazy_photo_img > img{width:116px;height:82px;border:1px solid #dddddd;}
+.eazy_photo_con{float:left;margin-left:11px;width:175px;overflow:hidden;}
+.eazy_photo_con h3{font-size:14px;color:#000000;width:175px;height:16px;overflow:hidden;}
+.eazy_photo_txt{margin-top:5px;}
+.eazy_photo_txt p{position: relative; line-height:20px;background:url(/CmsWeb/resource/image/mapo/mapo2015/main/eazy_photo_06.gif) no-repeat left center;padding-left:5px;}
+.eazy_photo_txt p::before{content: ""; width: 2px; height: 1px; background: #555; display: inline-block; position: absolute; top: 8px; left: 0;}
+.contents_rt{width:465px;position:relative;}
+.contents_rt .cts_rt_tBox li{float: left; width: 232.5px; height: 50px; text-align: center; background: #eaeaea}
+.contents_rt .cts_rt_tBox li.active, .contents_rt .cts_rt_tBox li:hover {background: #246f91}
+.contents_rt .cts_rt_tBox li.active .cts_rt_top, .contents_rt .cts_rt_tBox li:hover .cts_rt_top{color: #fff; font-weight: 600;}
+.contents_rt .cts_rt_tBox li .cts_rt_top{display: inline-block; padding: 15px 70px; font-size: 15px; color: #777777;}
+.contents_rt_con {display: none; position: absolute; top: 50px; left: 0; width: 100%;}
+.contents_rt_con.active {display: inline-block;}
+.contents_rt_con p{height: 60px;}
+.contents_rt_con a.active {background: #fffadf; color: #847b4a; font-weight: 600}
+.contents_rt_con a {float: left; width: 115.5px; padding: 22px 0; font-size: 13px; letter-spacing: -1px;border-right: 1px solid #ddd; border-bottom: 1px solid #ddd;}
+.contents_rt_con a:hover {color: #246f91}
+.contents_rt_con p a:last-child {border-right: none;}
+.cts_rt_bottom {position: absolute; bottom: 0; width: 100%; text-align: center;}
+.cts_rt_bottom li {float: left; display: inline-block;width: 116px; padding: 6px 0 15px 0;}
+.cts_rt_bottom li p{margin-top: 10px;}
+.cts_rt_bottom a:hover p {color: #246f91}
+
+/* 슬라이더 */
+.mainCon01-slider li img {margin: auto;}
+.content_mid_slide {display: block; position: relative; background: #c6dde8; padding: 30px 17px 55px;}
+.con01-slider-control {display: inline-block;}
+.set-num {position: absolute; left: 30px; bottom: 15px; font-size: 15px; font-weight: 500; color: #fff}
+.slide-control {position: absolute; right: 30px; bottom: 15px; width: 78px; height: 24px; border-radius: 15px; background: #8a9aa2; text-align: center;}
+.slide-control img {padding: 4px 3px; cursor: pointer;}
+
+/* 마포TV, 내고장 마포, 보도자료 및 SNS */
+.content_about3{margin-top: 35px;}
+.content_about3_lf{float:left; height: 340px}
+.content_about3_lf > div{float:left; position:relative; width:270px; height:340px; margin-right:30px;}
+.content_about3_lf .cts_ab3_tit {display: inline-block; margin-bottom: 20px; font-size: 17px; font-weight: 600; letter-spacing: -1px}
+.content_about3_lf .mptv-box .cts_ab3_tit{color: #27368c}
+.content_about3_lf .mymp-box .cts_ab3_tit{color: #13a08d}
+.content_about3_lf .mp-doc-box .cts_ab3_tit{color: #e08941}
+.content_about3_lf .mptv-box .content_about3_txt{background: #e4e9f0; color: #284a7e}
+.content_about3_lf .mymp-box .content_about3_txt{padding: 35px 35px 5px; background: #d9ece8; color: #1d836f}
+.content_about3_lf .mp-doc-box .content_about3_txt{background: #f1e5da; color: #c27c41}
+.content_about3_txt{min-height: 65px; margin:0 auto; padding:20px 35px;}
+.content_about3_txt > h3{position: relative; font-size: 15px; font-weight: 400; letter-spacing: -1px; color: inherit}
+.content_about3_txt > h3 .ctn_ab3_down{position: absolute; top: -6px; right: 0; padding: 5px; border: 1px solid #1d836f}
+.content_about3_txt > h3 > a{color: inherit}
+.content_about3_txt > p{margin-top:20px; color: #555; letter-spacing:-1.5px}
+.cab3_lf_pos{position:absolute;top:0;right: 0;}
+.content_about3_rt{float:left;position:relative;width:268px; height: 340px}
+.content_about3_rt > ul > li{float:left;}
+.content_about3_new {display: table-cell; padding: 0 35px; width:268px; height:195px; border:1px solid #ddd; border-bottom: none; vertical-align: middle;}
+.content_about3_new p {font-size:18px; font-weight: 600; color: #777; text-align:center; line-height:20px;}
+.ftbk_bor{position:absolute;top:34px;left:0;width:268px;height:295px;padding-top:12px;overflow-y:scroll;}
+.ftbk_con{padding:18px 0;border-bottom:1px dotted #b4b4b4;}
+.ftbk_img{float:left;width:60px;}
+.ftbk_txt{float:left;width:171px;margin-left:20px;}
+.ftbk_img > img{border:1px solid #d6d6d6;}
+
+/* 세금 ~ 안전  */
+.btm_btn{margin:30px 0;border:1px solid #e2e2e2;}
+.btm_btn > a{display:inline-block;width:83px;height:44px;line-height:44px;font-size:14px;padding-left:82.8px;border-right:1px solid #e2e2e2;}
+.btm_btn > a.a1{background:url(../../../CmsWeb/resource/image/mapo/mapo2015/main/btm_img_03.gif) no-repeat 34px center;}
+.btm_btn > a.a2{background:url(../../../CmsWeb/resource/image/mapo/mapo2015/main/btm_img_05.gif) no-repeat 34px center;}
+.btm_btn > a.a3{background:url(../../../CmsWeb/resource/image/mapo/mapo2015/main/btm_img_07.gif) no-repeat 34px center;}
+.btm_btn > a.a4{background:url(../../../CmsWeb/resource/image/mapo/mapo2015/main/btm_img_09.gif) no-repeat 34px center;}
+.btm_btn > a.a5{background:url(../../../CmsWeb/resource/image/mapo/mapo2015/main/btm_img_11.gif) no-repeat 34px center;}
+.btm_btn > a.a6{background:url(../../../CmsWeb/resource/image/mapo/mapo2015/main/btm_img_13.gif) no-repeat 34px center;}
+.btm_btn > a.a7{background:url(../../../CmsWeb/resource/image/mapo/mapo2015/main/btm_img_15.gif) no-repeat 34px center;border-right:0;}
+
+/* 바로가기 */
+.content_gosite_box {display: inline-block; margin-bottom: 55px}
+.content_gosite_box ul li{float: left; margin-right: 30px}
+.content_gosite_box ul li:last-child{margin-right: 0}
+.content_gosite_box ul li select::-ms-expand {display: none;}
+.content_gosite_box ul li select{float: left; width: 223px; height: 35px; padding: 3px; vertical-align: middle; background: url('../../../CmsWeb/resource/image/mapo/mapo2015/main/select-arrow.png') no-repeat 95% 50%; -webkit-appearance: none; -moz-appearance: none; appearance: none;}
+
+/* 버튼 */
+.btn-move {display: inline-block; width: 46.5px; padding: 10px 0; background: #566473; color: #fff; text-align: center; vertical-align: middle;}
+
+/* 푸터 */
+#footer_bg{background-color:#ededed;}
+#footer{margin:0 auto;width:1169px;padding:25px 0 21px}
+.footer_lf{float:left;padding-top:7px;}
+.footer_mid{float:left;margin-left:17px;}
+.footer_rt{float:right;text-align:right;}
+.footer_rt > span{margin-left:10px;}
+.footer_mid > p{line-height:14px;}
+.footer_mid > p > a{display:inline-block;background:url(/CmsWeb/resource/image/mapo/mapo2015/main/ff_line.gif) no-repeat right center;color:#4d4d4d;padding:5px 6px 5px 2px;}
+.footer_mid > p > a.last{background:none;}
+.footer_mid > p.mar_tp10{margin-top:10px;margin-left:12px;color:#8e8e8e;}
+.menu_daph2_bg{display:none;position:absolute;top:48px;left:0;width:970px;z-index:200;background-color:#ffffff;}
+.menu_daph2_bg > ul > li > h1 > a{font-size:18px;letter-spacing:-1px;}
+.menu_daph2_bg > ul > li{float:left;padding:30px 8px 48px 12px;border-right:1px solid #dadada;min-width:165px;}
+.menu_daph2_bg > ul > li.last{border-right:0;}
+.menu_daph2_bg.border_1 > ul > li > h1 > a{color:#402a78;}
+.menu_daph2_bg.border_2 > ul > li > h1 > a{color:#169b98;}
+.menu_daph2_bg.border_3 > ul > li > h1 > a{color:#0072bc;}
+.menu_daph2_bg.border_4 > ul > li > h1 > a{color:#48a900;}
+.menu_daph2_bg.border_5 > ul > li > h1 > a{color:#9e4292;}
+.menu_daph2_bg.border_6 > ul > li > h1 > a.a1{color:#402a78;}
+.menu_daph2_bg.border_6 > ul > li > h1 > a.a2{color:#169b98;}
+.menu_daph2_bg.border_6 > ul > li > h1 > a.a3{color:#0072bc;}
+.menu_daph2_bg.border_6 > ul > li > h1 > a.a4{color:#48a900;}
+.menu_daph2_bg.border_6 > ul > li > h1 > a.a5{color:#9e4292;}
+.border_1{border:3px solid #402a78;}
+.border_2{border:3px solid #169b98;}
+.border_3{border:3px solid #0072bc;}
+.border_4{border:3px solid #48a900;}
+.border_5{border:3px solid #9e4292;}
+.border_6{border:3px solid #666666;}
+.border_1 > ul > li{height:305px;}
+.border_2 > ul > li{height:530px;}
+.border_3 > ul > li{height:400px;}
+.border_4 > ul > li{height:486px;}
+.border_5 > ul > li{height:480px;}
+.border_6 > ul > li{height:357px;}
+.sub_menu_lf{float:left;margin-left:10px;}
+.sub_menu_rt{float:left;margin-left:40px;}
+.menu_daph2_bg > ul > li > div{margin-top:18px;}
+.menu_daph2_bg > ul > li > div > a{display:block;padding:5px;padding-left:8px;background:url(/CmsWeb/resource/image/mapo/mapo2015/main/sub_a.gif) no-repeat left center;font-size:14px;color:#383838;}
+.menu_daph2_close{position:absolute;bottom:9px;right:9px;}
+.cb2{margin-top:16px;}
+.cb2_lf_add{float:left;width:230px;}
+.cb2_rt_add{float:right;width:215px;}
+.cb2 > div{padding-left:0;height:100%;padding-top:0;}
+.cb2 > div > div{padding-left:113px;height:76px;padding-top:14px;}
+.cb2_lf_add > p > a{display: inline-block;background: url(./CmsWeb/resource/image/mapo/mapo2015/main/add_img_03.png) no-repeat left center;font-size: 15px;font-weight: 600;color: #383838;padding-left: 10px;margin-right: 8px;margin-bottom: 5px;letter-spacing:-1px;}
+.cb2_lf > p{background:url(./CmsWeb/resource/image/mapo/mapo2015/main/add_img_10.png) no-repeat left center;font-size:14px;color:#4b4b4b;padding-left:8px;margin-top:5px;}
+.cb2_rt_add > p > a{display: inline-block;background: url(./CmsWeb/resource/image/mapo/mapo2015/main/add_img_03.png) no-repeat left center;font-size: 15px;font-weight: 600;color: #383838;padding-left: 10px;margin-right: 8px;margin-bottom: 5px;letter-spacing:-1px;}
+.cb2_rt > p{background:url(./CmsWeb/resource/image/mapo/mapo2015/main/add_img_10.png) no-repeat left center;font-size:14px;color:#4b4b4b;padding-left:8px;margin-top:5px;}
+.cb2_lf{float:none;}
+.cb2_rt{float:none;}
