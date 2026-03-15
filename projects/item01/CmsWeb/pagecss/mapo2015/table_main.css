@@ -1,0 +1,17 @@
+/* 
+.eazy_table{position:absolute;top:53px;left:15px;}
+.eazy_table td{border-bottom:1px dotted #dadada;padding:5px 4px;}
+.eazy_table td > a{display:block;background:url(/CmsWeb/resource/image/mapo/mapo2015/main/eb_icon.gif) no-repeat left center;padding-left:8px;line-height:22px;}
+*/
+.eazy_photo{position:absolute;top:60px;left:15px;width:324px;} 
+
+.data_table01{border-top:2px solid #9dd3dc;border-left:1px solid #9dd3dc;}
+.data_table01 th{color:#222222;background-color:#f4f5f5;text-align:left;padding:10px 0;padding-left:5px;border-bottom:1px solid #9dd3dc;border-right:1px solid #9dd3dc;vertical-align:top;}
+.data_table01 td{color:#222222;text-align:left;padding:10px 0;padding-left:5px;border-bottom:1px solid #9dd3dc;border-right:1px solid #9dd3dc;vertical-align:top;}
+.data_table01 td.td_center{text-align:center;}
+
+/* 20180921 메인 웹접근성 관련 공지사항 영역 수정 */
+.eazy_table {position:absolute;top:53px;left:15px;width:324px}
+.eazy_table li {position: relative; border-bottom:1px dotted #dadada;padding:5px 4px;}
+.eazy_table li::before {content: ""; width: 3px; height: 3px; background: #a6a6a6; display: inline-block; position: absolute; top: 15px;}
+.eazy_table li a {display:block;background:url(../../CmsWeb/resource/image/mapo/mapo2015/main/eb_icon.gif) no-repeat left center;padding-left:8px;line-height:22px;}
