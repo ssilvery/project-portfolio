@@ -1,7 +1,6 @@
 // import React from 'react'
 
 export default function Card({ project }) {
-  const width = `w-[${project.contribution}%]`;
   return (
     <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-xl ring-gray-900/5">
       <div>
@@ -11,7 +10,10 @@ export default function Card({ project }) {
           </h2>
         </div>
         <div className='not-prose flex flex-wrap mb-4'>
-          <div className={`flex justify-end items-center h-6 rounded-lg bg-indigo-400 ${width}`}>
+          <div
+            className="flex justify-end items-center h-6 rounded-lg bg-indigo-400"
+            style={{width: `${project.contribution}%`}}
+          >
             <p className='text-xs text-white font-semibold mx-2'>기여도 {project.contribution}%</p>
           </div>
         </div>
