@@ -33,8 +33,8 @@ export default function Card({ project }) {
       </div>
 
       <div className='mt-8'>
-        <a href={project.siteUrl} target='_blank' className='block text-right'>새창열기</a>
-        <div className='h-100 overflow-hidden  border-1 border-solid border-zinc-200 dark:border-gray-700/50 dark:shadow-none rounded-sm shadow-lg shadow-gray-300/30'>
+        <a href={project.siteUrl} target='_blank' className='block text-right'>작업물 보기</a>
+        <div className='h-100 overflow-y-auto  border-1 border-solid border-zinc-200 dark:border-gray-700/50 dark:shadow-none rounded-sm shadow-lg shadow-gray-300/30'>
           {/* <iframe src={project.siteUrl} width='100%' height='100%'></iframe> */}
           <img src={project.imgUrl} alt={`${project.title} 이미지`} />
         </div>
