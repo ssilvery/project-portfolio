@@ -7,6 +7,14 @@
     "siteUrl": "./projects/item02/sub01.html",
     "imgUrl": "./images/portfolio-img01.png"
   },
+   {
+    "id": 9, 
+    "title": "우리은행 우리모아(WEB)",
+    "tech": ["HTML", "CSS", "JS", "PhotoShop"],
+    "contribution": 100,
+    "siteUrl": "https://www.woorimore.co.kr/main_00100.act",
+    "imgUrl": "./images/portfolio-img09.png"
+  },
   {
     "id": 2, 
     "title": "KB기업은행(WEB)",
