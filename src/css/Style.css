@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+
+.contribution-bar-fill {
+  width: var(--progress-width, 0%);
+  transition: width 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+  /* 더 고급스러운 가속도 */
+
+  /* 단순 단색보다 훨씬 트렌디한 그라데이션 */
+  background: linear-gradient(90deg, #3b82f6 0%, #60a5fa 100%);
+
+  /* 약간의 광택 효과 */
+  box-shadow: 0 0 8px rgba(59, 130, 246, 0.5);
+}

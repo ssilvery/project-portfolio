@@ -4,34 +4,63 @@
     "title": "정철어학원 Jr(WEB)",
     "tech": ["HTML", "CSS", "JS", "PhotoShop"],
     "contribution": 100,
-    "siteUrl": "./projects/item02/sub01.html"
+    "siteUrl": "./projects/item02/sub01.html",
+    "imgUrl": "./images/portfolio-img01.png"
   },
   {
     "id": 2, 
     "title": "KB기업은행(WEB)",
     "tech": ["HTML", "CSS", "JS", "PhotoShop"],
     "contribution": 90,
-    "siteUrl": "https://obiz.kbstar.com/quics?page=C106575"
+    "siteUrl": "https://obiz.kbstar.com/quics?page=C106575",
+    "imgUrl": "./images/portfolio-img02.png"
   },
   {
     "id": 3, 
     "title": "용산 제주유스호스텔(반응형)",
     "tech": ["HTML", "CSS", "JQuery", "PhotoShop", "Bootstrap"],
     "contribution": 100,
-    "siteUrl": "https://www.yongsanjejuyh.com/kor/jeju/index.php"
+    "siteUrl": "https://www.yongsanjejuyh.com/kor/main/",
+    "imgUrl": "./images/portfolio-img03.png"
   },
   {
     "id": 4, 
     "title": "용산구청(반응형)",
     "tech": ["HTML", "CSS", "JS", "Photoshop", "Bootstrap"],
     "contribution": 100,
-    "siteUrl": "./projects/item03/index.html"
+    "siteUrl": "./projects/item03/index.html",
+    "imgUrl": "./images/portfolio-img04.png"
   },
   {
     "id": 5, 
     "title": "마포구청 메인(WEB)",
     "tech": ["HTML", "CSS", "JS","Photoshop"],
-    "contribution": 50,
-    "siteUrl": "./projects/item01/main.html"
+    "contribution": 100,
+    "siteUrl": "./projects/item01/main.html",
+    "imgUrl": "./images/portfolio-img05.png"
+  },
+  {
+    "id": 6, 
+    "title": "용산구청 메뉴페스토(반응형)",
+    "tech": ["HTML", "CSS", "JS", "Photoshop", "Bootstrap"],
+    "contribution": 100,
+    "siteUrl": "./projects/item04/main.html",
+    "imgUrl": "./images/portfolio-img06.png"
+  },
+  {
+    "id": 7, 
+    "title": "용산구청 민원포털(반응형)",
+    "tech": ["HTML", "CSS", "JS", "Photoshop", "Bootstrap"],
+    "contribution": 100,
+    "siteUrl": "./projects/item06/main.html",
+    "imgUrl": "./images/portfolio-img07.png"
+  },
+  {
+    "id": 8, 
+    "title": "중구청 생활지도(WEB)",
+    "tech": ["HTML", "CSS", "JS", "Photoshop"],
+    "contribution": 100,
+    "siteUrl": "./projects/item05/main.html",
+    "imgUrl": "./images/portfolio-img08.png"
   }
 ]

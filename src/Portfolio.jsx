@@ -30,8 +30,6 @@ function Container() {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
-    // 로컬 데이터이므로 실제로는 즉시 실행되지만, 
-    // 로딩 UI 확인을 위해 1초 정도 지연 시간을 줘봅니다.
     const timer = setTimeout(() => {
       setProjects(data);
       setIsLoading(false);
